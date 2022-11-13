@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+   <!-- bootstrap css and js -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    
+    <style media="screen">
+    body{
+      background-color:#97D2EC;
+    }
+      .container-fulid{
+        height100px;
+        background-color:#97D2EC;
+      }
+
+      h1{
+        padding-top:50px;
+      }
+
+      .p{
+        padding-top:50px;
+        color:white;
+        font-family: 'Merriweather', serif;
+        font-size:17px;
+      }
+
+      #footer{
+        height:430px;
+      }
+      .copyrigth{
+        padding-top: 20px;
+        padding-bottom:0;
+        text-align: center;
+      }
+
+      .social{
+        color: white;
+      }
+
+      .social:hover{
+        color:#97D2EC;
+      }
+
+      a{
+        text-decoration: none;
+        color: white;
+      }
+
+      a:hover{
+        color:#97D2EC;
+      }
+
+      .addressWrapper{
+        margin-left: 23px;
+      }
+
+      .logo{
+        height: 150px;
+        width:150px;
+        border-radius: 100%;
+      }
+
+    </style>
+    
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <title>About</title>
+</head>
+<body>
+
+    {{>navbar data=details}}
+    <br>
+
+      <h1>About Eazy</h1>
+      <p class="p">Yulu’s mission is to make urban mobility in India seamless, shareable and sustainable. What started off as an initiative to reduce traffic congestion and pollution in Indian cities, is now redefining urban mobility across the country.<br>
+      <br>
+      We are driven by three guiding principles of urban mobility – Accessibility, Availability, and Affordability.<br>
+      <br>
+      We are empowering residents in Indian cities to create a paradigm shift in the mobility industry, by making the urban commute more efficient and eco-friendly.<br>
+      <br>
+      Yulu is a technology-driven mobility platform that enables Integrated Urban Mobility across public and private modes of transport. Using Micro Mobility Vehicles (MMVs) through a user-friendly mobile app, Yulu enables first and last-mile connectivity that is seamless, shared and sustainable.<br>
+      <br>
+      We are an India-based company with a founding team that is deeply passionate about creating positive social impact. This mindset is instilled in each and every member of our team, and we are dedicated to making a difference in the lives of people around us. So, if you are passionate about the challenges of urban mobility, chaotic congestion, and sustainable living, let’s have a conversation and make a difference together!<br>
+      </p>
+
+      {{>footer}}
+</body>
+</html>

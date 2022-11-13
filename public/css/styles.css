@@ -1,0 +1,114 @@
+.introh1{
+    padding-top: 0;
+    color: #59CE8F;
+}
+
+.homep{
+    padding: 5px;
+    color: white;
+  }
+
+  .sign{
+    background-color: #277BC0;
+    padding: 10px 30px;
+    margin-top: 50px;
+    margin-right: 20px;
+    border-radius: 5px;
+    border: solid #277BC0 1px;
+    color: white;
+    font-size: 17px;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  .sign:hover{
+    background-color: #0F3460;
+  }
+
+  #title{
+    background-color: #B1E1FF;
+    color: #fff;
+  }
+  
+  #instsec{
+    padding: 5% 15%;
+    background-color: #ffff;
+  }
+
+  .inst{
+    text-align: center;
+    float: left;
+    padding: 50px;
+    right: 70px;
+    margin-right: 10px;
+  }
+  
+  .in{
+    text-align: center;
+  }
+  .inst-box{
+    text-align: center;
+    padding: 8px;
+    width: 300px;
+    margin-top: 10px;
+  }
+
+  #where{
+    padding: 5% 15%;
+    text-align: center;
+  }
+
+  #touch{
+    padding: 7% 15%;
+    background-color: #B1E1FF;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .mail{
+    width:500px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 30px;
+    border: 1px solid white;
+  }
+  
+  .sub{
+    width: 100px;
+    margin-left: 5px;
+    height: 50px;
+    border-radius: 5px;
+    border: 0 solid #A5F1E9;
+  }
+  
+  .sub:hover{
+    background-color: #A5F1E9;
+  }
+  
+  .logo{
+    height: 150px;
+    width:150px;
+    border-radius: 100%;
+  }
+
+  #footer{
+    padding: 1% 15%;
+    background-color: #16213E;
+    color: white;
+  }
+  
+  .footer-link-list-item{
+    text-decoration: none;
+  }
+  
+  .download-btn{
+    margin-left: 10px;
+  }
+  
+  .download-heading{
+    margin-bottom: 30px;
+  }
+  
+  .social{
+    color: white;
+  }
+  

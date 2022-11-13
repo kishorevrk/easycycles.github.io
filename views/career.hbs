@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Career</title>
+
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+
+    <!-- bootstrap css and js -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <style>
+
+      div{
+        text-align: center;
+        margin-top:0;
+      }
+
+      .col1{
+        padding-top:30px;
+        padding-left:20px;
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 3rem;
+        font-family: 'Montserrat', sans-serif;
+        line-height: 1.5;
+        padding-top: 100px;
+        color:black;
+      }
+
+      h2{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2rem;
+      }
+
+      .whyp{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 0.9rem;
+        color:black;
+        margin-top:40px;
+        margin-left:20px;
+      }
+
+      .topp{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1rem;
+        padding: 30px;
+        color:black;
+      }
+
+      .sign{
+        background-color: #277BC0;
+        padding: 10px 30px;
+        margin-top: 50px;
+        margin-right: 20px;
+        border-radius: 5px;
+        border: solid #277BC0 1px;
+        color: white;
+        font-size: 17px;
+        font-family: 'Ubuntu', sans-serif;
+      }
+
+      .sign:hover{
+        background-color: #0F3460;
+      }
+
+      .img{
+        height:740px;
+        width:600px;
+      }
+
+      #features{
+        <!-- background-color: #16213E; -->
+        text-align: center;
+        color: #fff;
+      }
+
+      .carousel-item{
+        padding: 5% 15%;
+      }
+
+      .testimonial-picture{
+        width: 40%;
+        float:left;
+        height:40%;
+        border-radius: 5%;
+        margin: 40px;
+      }
+
+      <!-- #featureimg{
+        text-align: center;
+        padding:100px;
+      } -->
+      #testimonial-carousel{
+        <!-- height:300px; -->
+      }
+
+      .nav-item{
+        font-weight: bold;
+        font-size: 20px;
+        font-family: 'Kanit', sans-serif;
+        color: black;
+        margin-left: 20px;
+      }
+
+      .whycont{
+        padding-top:80px;
+      }
+
+      .why{
+        text-decoration:none;
+        padding:30px;
+        font-size:20px;
+        font-weight:bold;
+        color:#5F6F94;
+        margin-top:30px;
+      }
+
+      .why:hover{
+        color:black;
+      }
+
+      .buttonn{
+        color:black;
+      }
+
+      .tnav{
+        margin-top:40px;
+      }
+
+      body{
+    background:#eee;
+}
+
+.card {
+    box-shadow: 0 20px 27px 0 rgb(0 0 0 / 5%);
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid rgba(0,0,0,.125);
+    border-radius: 1rem;
+}
+
+.card-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.5rem 1.5rem;
+}
+.avatar-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #000;
+    color: #fff;
+    font-weight: 700;
+}
+
+.avatar {
+    width: 3rem;
+    height: 3rem;
+}
+.rounded-3 {
+    border-radius: 0.5rem!important;
+}
+.mb-2 {
+    margin-bottom: 0.5rem!important;
+}
+.me-4 {
+    margin-right: 1.5rem!important;
+}
+
+.copyrigth{
+  padding-top: 20px;
+  padding-bottom:0;
+  text-align: center;
+}
+
+.social{
+  color: white;
+}
+
+.social:hover{
+  color:#97D2EC;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  color:#97D2EC;
+}
+
+.addressWrapper{
+  margin-left: 23px;
+}
+
+.logo{
+  height: 150px;
+  width:150px;
+  border-radius: 100%;
+}
+
+#footer{
+  padding: 3% 15%;
+  background-color: #16213E;
+  color: white;
+}
+
+.footer-link-list-item{
+  text-decoration: none;
+}
+
+.download-btn{
+  margin-left: 10px;
+}
+
+.download-heading{
+  margin-bottom: 30px;
+}
+
+.social{
+  color: white;
+}
+
+#footer{
+  height:430px;
+}
+    <link rel="stylesheet" href="styles.css">
+    </style>
+
+  </head>
+
+  <body>
+
+    {{>navbar data=detail}}
+    <div class="container-fulid">
+      <div class="row">
+        <div class="col1 col-7">
+            <h1>Redifine Urban Mobility with Eazy</h1>
+            <p class="topp">At Yulu, passion meets purpose. We build disruptive EV mobility alternatives for a sustainable future.<br>
+                Come, join us. Let's build the India of the future, together.</p>
+            <button class="sign" type="button" name="button">Explore Jobs</button>
+        </div>
+        <div class="col2 col-5">
+          <img class="img" src="images/man5.jpg" alt="">
+        </div>
+      </div>
+    </div>
+
+
+    <div class="whycont">
+      <h2>Why join us ?</h2 >
+
+      <div class="tnav">
+        <a class="why active" href="#home">Values</a>
+        <a class="why" href="#news">Culture</a>
+        <a class="why" href="#contact">Benefits</a>
+      </div>
+
+    </div>
+    <section id="features">
+      <div id="testimonial-carousel" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="testimonial-picture" src="images/office1.jpg" alt="Icon">
+            <p class="whyp">PASSION : Passion drives us. It's the superpower that fuels our creative relentlessness until we solve a problem completely.</p>
+            <p class="whyp">COLLABORATION : We truly believe no one is as smart as all of us. An open culture that breaks functional & hierarchical silos is what makes us truly #unstoppable.</p>
+            <p class="whyp">HARD WORK : Some fundamentals dont change. We are solving some really hard problems and there is no substitute for this age old virtue.</p>
+          </div>
+          <div class="carousel-item" id="stand">
+            <img class="testimonial-picture" src="images/office2.jpg" alt="Icon">
+            <p class="whyp">EMPOWERMENT : We nurture individuals to own challenges. Here, you have the freedom to work on compelling problems and take risks.</p>
+            <p class="whyp">TRUST : We believe happy employees bring a happy work atmosphere. Hence, we consider open communication and employee satisfaction as our key ideals.</p>
+            <p class="whyp">LEARNING : We focus on engaging our employees with something new consistently. We have many learning and development programs to help your career progression.</p>
+          </div>
+          <div class="carousel-item">
+            <img class="testimonial-picture" src="images/office3.jpg" alt="Icon">
+            <p class="whyp">FLEXIBLE WORK HOURS : You have a little extra time to yourself and your loved ones.</p>
+            <p class="whyp">HEALTH INSURANCE : You don’t have to worry about the well-being of your close ones.</p>
+            <p class="whyp">EMPLOYEE RECOGNITION : Your hard work is rewarded at the right time.</p>
+            <p class="whyp">UNLIMITED EAZY RIDES : You always have a ready ride to your next destination!</p>
+          </div>
+        </div>
+
+        <button class="buttonn carousel-control-prev" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="prev">
+          <span class="buttonn carousel-control-prev-icon"</span>
+        </button>
+        <button class="buttonn carousel-control-next" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="next">
+          <span class="buttonn carousel-control-next-icon"</span>
+        </button>
+
+      </div>
+    </section>
+
+    <section id="openings">
+      <div>
+        <h2>Current job openings</h2>
+        <div class="container">
+    <div class="text-center mb-5">
+      <p class="lead">Intelligent Career Matching.</p>
+    </div>
+    <div class="card mb-3">
+      <div class="card-body">
+        <div class="d-flex flex-column flex-lg-row">
+          <span class="avatar avatar-text rounded-3 me-4 mb-2">PM</span>
+          <div class="row flex-fill">
+            <div class="col-sm-5">
+              <h4 class="h5">Product Manager</h4>
+              <span class="badge bg-secondary">Vellore</span> <span class="badge bg-success">60K - 1L</span>
+            </div>
+            <div class="col-sm-4 py-2">
+              <span class="badge bg-secondary">REACT</span>
+              <span class="badge bg-secondary">NODE</span>
+              <span class="badge bg-secondary">TYPESCRIPT</span>
+              <span class="badge bg-secondary">JUNIOR</span>
+            </div>
+            <div class="col-sm-3 text-lg-end">
+              <a href="#" class="btn btn-primary stretched-link">Apply</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3">
+      <div class="card-body">
+        <div class="d-flex flex-column flex-lg-row">
+          <span class="avatar avatar-text rounded-3 me-4 bg-warning mb-2">DA</span>
+          <div class="row flex-fill">
+            <div class="col-sm-5">
+              <h4 class="h5">Data Analyst</h4>
+              <span class="badge bg-secondary">Vellore</span> <span class="badge bg-success">90K - 1.8L</span>
+            </div>
+            <div class="col-sm-4 py-2">
+              <span class="badge bg-secondary">GOLANG</span>
+              <span class="badge bg-secondary">SENIOR</span>
+              <span class="badge bg-secondary">ENGINEER</span>
+              <span class="badge bg-secondary">BACKEND</span>
+            </div>
+            <div class="col-sm-3 text-lg-end">
+              <a href="#" class="btn btn-primary stretched-link">Apply</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3">
+      <div class=   "card-body">
+        <div class="d-flex flex-column flex-lg-row">
+          <span class="avatar avatar-text rounded-3 me-4 bg-info mb-2">HR</span>
+          <div class="row flex-fill">
+            <div class="col-sm-5">
+              <h4 class="h5">HR Manager</h4>
+              <span class="badge bg-secondary">Vellore</span> <span class="badge bg-success">1.5L - 2L</span>
+            </div>
+            <div class="col-sm-4 py-2">
+              <span class="badge bg-secondary">PRODUCT MARKETING</span>
+              <span class="badge bg-secondary">MARKETING</span>
+              <span class="badge bg-secondary">EXECUTIVE</span>
+              <span class="badge bg-secondary">ECOMMERCE</span>
+            </div>
+            <div class="col-sm-3 text-lg-end">
+              <a href="#" class="btn btn-primary stretched-link">Apply</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+      </div>
+    </section>
+
+    {{>footer}}
+
+  </body>
+
+
+</html>

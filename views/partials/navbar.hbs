@@ -1,0 +1,23 @@
+<nav class="navbar border-bottom navbar-expand-lg py-4 navbar-light bg-light">
+  <img src="{{data.brandIconUrl}}" alt="..." height="36">
+  <a class="navbar-brand" href="#">{{data.brandName}}</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+      {{#each data.links}}
+      <a class="nav-item nav-link active" href="{{this.url}}">{{this.label}} </a>
+      {{!-- <a class="nav-item nav-link" href="#">About</a>
+      <a class="nav-item nav-link" href="#">Product</a>
+      <a class="nav-item nav-link " href="#">Scan</a>
+      <a class="nav-item nav-link" href="#">Career</a>
+      <a class="nav-item nav-link" href="#">Policies</a>
+      <a class="nav-item nav-link " href="#">Help</a> --}}
+    
+    {{/each}}
+
+    </div>
+  </div>
+</nav>
